@@ -1,0 +1,26 @@
+###
+POST http://localhost:8080/createTask
+Content-Type: application/json
+
+{
+    "title":"i would go to the market today"
+}
+
+###
+put http://localhost:8080/updateTask/1
+Content-Type: application/json
+
+{
+    "title":"i will go to school",
+    "completed": true
+}
+
+###
+GET http://localhost:8080/listTasks
+
+###
+DELETE http://localhost:8080/deleteTask/2
+
+###
+PUT http://localhost:8080/completeTask/1
+
